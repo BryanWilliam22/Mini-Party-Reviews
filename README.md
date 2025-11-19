@@ -1,11 +1,12 @@
-GUÍA DE INSTALACIÓN / DESPLIEGUE DEL SISTEMA “Mini Party Reviews”
-1. Requisitos previos
+## Guía de Instalación / Despliegue del Sistema “Mini Party Reviews”
+### 1. Requisitos previos
 Antes de instalar el sistema, asegúrate de tener lo siguiente:
-•	Servidor local o remoto con soporte PHP y MySQL/MariaDB (por ejemplo, XAMPP, WAMP o Laragon).
-•	PHP 7.4 o superior.
-•	Servidor Apache habilitado.
-•	Navegador web actualizado (Chrome, Edge, Firefox, etc.).
-•	Base de datos importada (archivo .sql correspondiente al sistema).
+- Servidor local o remoto con soporte PHP y MySQL/MariaDB (por ejemplo: XAMPP, WAMP o Laragon).
+- PHP 7.4 o superior.
+- Servidor Apache habilitado.
+- Navegador web actualizado (Chrome, Edge, Firefox, etc.).
+- Base de datos importada desde el archivo `.sql` correspondiente al sistema.
+
 2. Instalación paso a paso
 -	Descargar el proyecto
 -	Configurar la base de datos
@@ -36,3 +37,6 @@ Imagen lateral decorativa en el panel de administrador.
 Estilo visual personalizado:
 Colores negro y dorado 
 Efectos hover, sombras y animaciones suaves.
+### Nota:
+Es recomendable activar el módulo mysqli en PHP antes de iniciar la instalación.
+
